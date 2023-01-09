@@ -1,0 +1,147 @@
+.projetos {
+    padding-top: 5%;
+    margin-top: 10%;
+}
+
+.projetos h2 {
+    padding-bottom: 70px;
+}
+
+button {
+    padding: 10px 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #003000;
+    border: none;
+    transition: ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color: #009900;
+}
+
+section.projetos img {
+    max-width: 100%;
+    display: block;
+}
+
+.projetos a {
+    display: inline;
+}
+
+.pro {
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.pro div p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #C4C4C4;
+}
+
+.pro:hover {
+    letter-spacing: 5px;
+}
+
+.pro div {
+    background-color: #007000;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+}
+
+section.projetos {
+	position: relative;
+	transform: translateY(-50%);
+    top: 50%;
+}
+
+section.projetos h2{
+	color: #303a40;
+	font-size: 46px;
+}
+
+section.projetos h2 > span,
+section.projetos h3 > span {
+	color: darkcyan;
+}
+
+section.projetos h3 {
+	color: #6c757d;
+	font-size: 26px;
+}
+
+section.projetos p {
+	color: #303a40;
+	font-size: 20px;
+}
+
+.site {
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.site div {
+    background-color: #705656;
+    width: 1000px;
+    text-align: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.escondido {
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+}
+
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width:1200px) {
+  .projetos{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #projetos {
+      display: flex;
+      justify-content: center;
+  }
+
+  .projetos-itens {
+      flex-direction: column;
+  }
+
+}
+@media (max-width:950px) {
+    .pro {
+        max-width: 300px;
+    }
+
+}
