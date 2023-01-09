@@ -66,3 +66,27 @@ section.sobre p > span {
 .icons-social i {
 	line-height: 45px;
 }
+
+@media (max-width: 768px) {
+	.content {
+		top: 0%;
+		left: 0%;
+		width: 100%;
+	}
+	section.sobre {
+		top: 0;
+		padding-top: 40%;
+	}
+}
+
+@media (max-width: 400px) {
+	.content {
+		top: 0%;
+		left: 0%;
+		width: 100%;
+	}
+	section.sobre {
+		top: 0;
+		padding-top: 10%;
+	}
+}

@@ -122,13 +122,13 @@ section.projetos p {
     justify-content: center;
 }
 
-@media (max-width:1200px) {
+@media (max-width:1400px) {
   .projetos{
       text-align: center;
       display: flex;
       flex-direction: column;
       padding-top: 0;
-      margin-top: 40%;
+      margin-top: 20%;
   }
 
   #projetos {
@@ -139,11 +139,17 @@ section.projetos p {
 }
 @media (max-width:950px) {
     .projetos{
-        margin-top: 100%;
-        padding-top: 10%;
+        margin-top: 180%;
+        padding-top: 40%;
     }
     .pro {
         max-width: 300px;
     }
 
+}
+@media (max-width: 400px) {
+	section.projetos {
+		margin-top: 180%;
+		padding-top: 40%;
+	}
 }
