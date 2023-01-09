@@ -112,4 +112,7 @@ li.selected a{
 	li.selected a{
 		transform: scale(1.01);
 	}
+	.menu a:hover{
+		transform: scale(1.01);
+	}
 }
