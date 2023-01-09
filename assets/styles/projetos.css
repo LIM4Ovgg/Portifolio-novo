@@ -127,6 +127,8 @@ section.projetos p {
       text-align: center;
       display: flex;
       flex-direction: column;
+      padding-top: 0;
+      margin-top: 40%;
   }
 
   #projetos {
@@ -134,12 +136,12 @@ section.projetos p {
       justify-content: center;
   }
 
-  .projetos-itens {
-      flex-direction: column;
-  }
-
 }
 @media (max-width:950px) {
+    .projetos{
+        margin-top: 100%;
+        padding-top: 10%;
+    }
     .pro {
         max-width: 300px;
     }

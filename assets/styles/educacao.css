@@ -1,12 +1,9 @@
-.educacao {
-    margin-top: 7%;
-    padding: 12% 0;
-}
-
 section.educacao {
 	position: relative;
 	transform: translateY(-50%);
     top: 50%;
+	margin-top: 7%;
+    padding: 12% 0;
 }
 
 section.educacao h2 {
@@ -27,4 +24,12 @@ section.educacao h3 {
 section.educacao p {
 	color: #303a40;
 	font-size: 20px;
+}
+
+@media (max-width:880px) {
+	.educacao {
+		margin-top: 0;
+		padding: 0;
+		transform: translateY(0);
+	}
 }
