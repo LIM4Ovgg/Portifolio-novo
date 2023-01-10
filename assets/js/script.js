@@ -14,3 +14,14 @@ function openImg(){
 function closeImg(){
     document.querySelector('.popup-img').style.display = 'none';
 }
+
+function openMenu(){
+    document.querySelector('.sidebar').classList.add('open');
+    document.querySelector('.mobile-menu').classList.add('close');
+}
+
+function closeMenu(){
+    document.querySelector('.sidebar').classList.remove('open');
+    document.querySelector('.mobile-menu').classList.remove('close');
+}
+
