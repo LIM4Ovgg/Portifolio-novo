@@ -1,31 +1,31 @@
-section.educacao {
+section.habilidades {
     top: 50%;
 	margin-top: 7%;
     padding: 12% 0;
 }
 
-section.educacao h2 {
+section.habilidades h2 {
 	color: #303a40;
 	font-size: 46px;
 }
 
-section.educacao h2 > span,
-section.educacao h3 > span {
+section.habilidades h2 > span,
+section.habilidades h3 > span {
 	color: darkcyan;
 }
 
-section.educacao h3 {
+section.habilidades h3 {
 	color: #6c757d;
 	font-size: 26px;
 }
 
-section.educacao p {
+section.habilidades p {
 	color: #303a40;
 	font-size: 20px;
 }
 
 @media (max-width:880px) {
-	section.educacao {
+	section.habilidades {
 		padding-top: 20%;
 		transform: translateY(0);
 	}
