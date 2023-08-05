@@ -34,6 +34,7 @@
 	margin: 8px;
 	z-index: 100;
 	display: none;
+	border-radius: 5px;
 }
 
 .mobile-menu div {
@@ -197,7 +198,7 @@ li.selected a {
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
 	.sidebar {
 		width: 100%;
 		height: 100%;
